@@ -42,6 +42,7 @@
 ==================================================================================================================================================================
 
 * Elsif
+-------
 	What if you want more than two options, though? It’s elsif to the rescue! The elsif statement can add any number of alternatives to an if/else statement, like so:
 
 		if x < y  # Assumes x and y are defined
@@ -50,6 +51,22 @@
   			puts "x is greater than y!"
 		else
   			puts "x equals y!"
+		end
+
+==================================================================================================================================================================
+
+* Unless
+--------
+	Sometimes you want to use control flow to check if something is false, rather than if it’s true. You could reverse your if/else, but Ruby will do you one better: it will let you 
+	use an unless statement.
+
+	Let’s say you don’t want to eat unless you’re hungry. That is, while you’re not hungry, you write programs, but if you are hungry, you eat. You might write that program in Ruby 
+	like this:
+
+		unless hungry
+  			# Write some sweet programs
+		else
+  			# Have some noms
 		end
 
 ==================================================================================================================================================================
