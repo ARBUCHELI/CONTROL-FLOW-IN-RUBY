@@ -152,6 +152,47 @@
 
 ==================================================================================================================================================================
 
+* Nice Work!
+------------
+	Great work! So far you’ve learned:
+
+		. How to use if, else, and elsif
+
+		. How to use comparators / relational operators like ==, !=, <, <=, >, and >=
+
+		. How to use boolean / logical operators like &&, ||, and !
+
+==================================================================================================================================================================
+
+* If, Else, and Elsif
+---------------------
+	All right! You’re all on your lonesome. (Well, not quite. We’ll just leave this example here.)
+
+		a = 10
+		b = 11
+		if a < b
+  			print "a is less than b!"
+		elsif b < a
+  			print "b is less than a!"
+		else
+  			print "b is equal to a!"
+		end
+
+==================================================================================================================================================================
+
+* Unless
+--------
+	Good! Now let’s review the unless statement.
+
+		problem = false
+		print "Good to go!" unless problem
+
+	Remember, this is basically a short hand if statement. It will do whatever you ask unless the condition is true. In our example, problem is false, so we don’t have a problem. We 
+	print Good to go!
+
+==================================================================================================================================================================
+
+
 
 
 
